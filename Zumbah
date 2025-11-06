@@ -1,0 +1,12 @@
+public class Zumbah extends SupremeBoohbah{
+    public Zumbah(){
+        super();
+        this.name = "Zumbah";
+        System.out.println(name+" pretends to obey but plots quietly.");
+    }
+    @Override
+    public void command(){
+        super.command();
+        System.out.println(name+" responds: All hail Zing Zing Zingbah.(*For Today*)");
+    }
+}
