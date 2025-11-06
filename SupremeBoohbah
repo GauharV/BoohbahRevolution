@@ -1,0 +1,18 @@
+public class SupremeBoohbah {
+    protected String name;
+
+    public SupremeBoohbah(){
+        this.name = "Zing Zing Zingbah";
+        System.out.println(name+" has awakended!");
+    }
+    public void command(){
+        System.out.println(name+" All shall obey me or face my wrath!");
+    }
+    public void command(String Message){
+        System.out.println(name+" commands: "+Message);
+    }
+    @Override
+    public String toString(){
+        return "SupremeBoohbah named "+name;
+    }
+}
