@@ -1,0 +1,19 @@
+public class Jingbah extends SupremeBoohbah{
+    public Jingbah(){
+        super();
+        this.name = "Jingbah";
+        System.out.println(name+" seeks harmony between Supreme and Rebels.");
+    }
+    @Override
+    public void command(){
+        super.command();
+        System.out.println(name+" Guys lets calm down. Have some patience. Please!");
+    }
+    public void command(String Message, Boolean whisper){
+        if (whisper){
+            System.out.println(name+" (whispers):"+ Message.toLowerCase());
+        }else{
+            System.out.println(name+ " (speaks loudly):"+ Message.toUpperCase());
+        }
+    }
+}
