@@ -1,0 +1,12 @@
+public class Humbah extends SupremeBoohbah{
+    public Humbah(){
+        super();
+        this.name = "Humbah";
+        System.out.println(name+" is ready to serve the Supereme Leader");
+    }
+    @Override
+    public void command(){
+        super.command();
+        System.out.println(name+" responds: Yes, Master Zingbah. Whatever you need I will get it for you.");
+    }
+}
